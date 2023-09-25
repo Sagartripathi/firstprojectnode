@@ -7,6 +7,11 @@ app.get("/",(req,res)=>{
         message:"It home page....."
             })
         })
+        app.get("/sagar/",(req,res)=>{
+            res.send({
+                message:"sagar"
+                    })
+                })
 app.listen(4100,(req, res)=>{
     console.log(" its running on port 4100")
 })
